@@ -1,0 +1,136 @@
+/* styling the navigation bar */
+nav {
+  width: 100%;
+ background-color:lightblue ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 10%;
+    background-color:lightblue ;
+    padding: 5px;
+    overflow: hidden;
+    width: auto; 
+  
+  }
+  
+  nav ul li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: no
+    font-size: auto;
+    background-color: transparent ;
+    font-family:comic sans-serif;
+    font-size: 26px;
+    text-decoration :none;
+    }
+
+  li a:hover:not(.active) {
+    background-color: #0000ef;
+  }
+  
+  .active {
+    background-color: #7604aa;
+  }
+
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body {
+ background-color: lavender;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  /*styling the contacts page*/
+  .styling_address {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  
+  input[type=text], input[type=email], input[type=number]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  }
+  input[type=submit], input[type=reset] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    .styling images {
+      height:105px;
+      width: 50px;
+    }
+
+    footer { 
+      background-color: rgb(165, 127, 21);
+      display: flex; 
+      justify-content: center; 
+      
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    } 
+
+    h3 {
+      text-align: center;
+    }
+
+    .royal_font_styling {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /*
+    .styling-icons {
+      align-items: center;
+      height: 15px;
+      width: 30px;
+    }
+    */
